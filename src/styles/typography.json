@@ -1,5 +1,5 @@
 {
-    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+    "fontFamily": "'Proxima Nova', sans-serif",
     "weight": {
         "light": 100,
         "regular": 300,
@@ -17,5 +17,4 @@
     "lineHeightMultiplier": {
         "button": 2.6
     }
-
 }
