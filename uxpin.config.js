@@ -4,10 +4,11 @@ module.exports = {
       {
         name: 'General',
         include: [
-          'src/Input/Input.js'
-        ]
-      }
-    ]
+          'src/Input/Input.js',
+          'src/LessElement/LessElement.js',
+        ],
+      },
+    ],
   },
-  name: 'UXPin Merge Panel System'
+  name: 'UXPin Merge Panel System',
 };
