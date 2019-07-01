@@ -52,6 +52,7 @@
   },
   "homepage": "https://github.com/marcintreder/uxpin-merge-boilerplate-proptypes#readme",
   "dependencies": {
+    "classnames": "^2.2.6",
     "d3-shape": "^1.2.2",
     "emotion": "^9.2.12",
     "lodash": "^4.17.11",

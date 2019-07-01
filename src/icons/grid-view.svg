@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8" height="8" viewBox="0 0 8 8">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="8" height="8" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_3" data-name="Repeat Grid 3" clip-path="url(#clip-path)">
+    <g transform="translate(-2807 -963)">
+      <rect id="Rectangle_58" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2804 -963)">
+      <rect id="Rectangle_58-2" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2801 -963)">
+      <rect id="Rectangle_58-3" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2807 -960)">
+      <rect id="Rectangle_58-4" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2804 -960)">
+      <rect id="Rectangle_58-5" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2801 -960)">
+      <rect id="Rectangle_58-6" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2807 -957)">
+      <rect id="Rectangle_58-7" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2804 -957)">
+      <rect id="Rectangle_58-8" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+    <g transform="translate(-2801 -957)">
+      <rect id="Rectangle_58-9" data-name="Rectangle 58" width="2" height="2" transform="translate(2807 963)" fill="#5e5e5e"/>
+    </g>
+  </g>
+</svg>

@@ -1,52 +1,45 @@
 import React, { PureComponent } from 'react';
+import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import { ControlWrapper, InputWrapper, InputLabel, InputField } from './Input.styles';
+import './Input.less';
 
-class Input extends PureComponent {
-  constructor(props) {
-    super(props);
+function Input(props) {
+  const controlWrapperClasses = classnames(
+    'control',
+    { disabled: props.disabled },
+    props.size,
+    props.labelPosition
+  );
 
-    this.state = {
-      isDisabled: true,
-    };
-  }
-
-  static getDerivedStateFromProps(props) {
-    return {
-      isDisabled: props.disabled,
-    };
-  }
-
-  render() {
-    return (
-      <ControlWrapper disabled={this.state.isDisabled}>
-        <InputWrapper>
-          <InputLabel></InputLabel>
-          <InputField
-            type="text"
-            placeholder={this.props.placeholder}
-            title={this.props.title}
-            value={this.props.value}
-          />
-        </InputWrapper>
-      </ControlWrapper>
-    );
-  }
+  return (
+    <div className={controlWrapperClasses}>
+      <label>{props.labelValue}</label>
+      <div className="input">
+        <input className="input-field"
+          type="text"
+          placeholder={props.placeholder}
+          title={props.title}
+          value={props.value}
+        />
+      </div>
+    </div>
+  );
 }
+
 
 Input.propTypes = {
   placeholder: PropTypes.string,
   value: PropTypes.string,
-  size: PropTypes.oneOf(['size1', 'size2', 'size3', 'size4', 'size5', 'size6', 'size7', 'size8']),
-  labelPosition: PropTypes.oneOf(['no label', 'inside', 'under']),
+  size: PropTypes.oneOf(['size-1', 'size-2', 'size-3', 'size-4', 'size-5', 'size-6', 'size-7', 'size-8']),
+  labelPosition: PropTypes.oneOf(['no-label', 'label-inside', 'label-under']),
+  labelValue: PropTypes.string,
   title: PropTypes.string,
-  label: PropTypes.string,
   disabled: PropTypes.bool,
 };
 
 Input.defaultProps = {
-  size: 'size1',
-  labelPosition: 'empty',
+  size: 'size-4',
+  labelPosition: 'no-label',
   disabled: false,
 };
 

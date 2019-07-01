@@ -5,7 +5,7 @@ module.exports = {
         name: 'General',
         include: [
           'src/Input/Input.js',
-          'src/LessElement/LessElement.js',
+          'src/BtnIcon/BtnIcon.js',
         ],
       },
     ],

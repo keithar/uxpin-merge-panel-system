@@ -1,0 +1,72 @@
+// @import '../styles/reset.less';
+@import '../styles/variables.less';
+
+.button-icon {
+	height: 24px;
+	display: flex;
+	float: left;
+	position: relative;
+	border: 1px solid @input-border;
+	border-radius: 2px;
+	align-content: center;
+	text-align: center;
+
+	.text-label {
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin: 0;
+		color: @gray-lighten10;
+		cursor: pointer !important;
+		display: flex;
+		align-items: end;
+		justify-content: center;
+
+		&:before {
+			width: 12px;
+			height: 12px;
+			display: inline-block;
+			// margin-right: 6px;
+		}
+
+		&.interactions {
+			&:before {
+				// content: url('../img/interactions-icon.svg');
+				margin-right: 4px;
+			}
+		}
+	}
+
+	&.ghost-style {
+		border-color: transparent;
+	}
+
+	&.disabled {
+		opacity: 0.4;
+		pointer-events: none;
+		border-color: transparent;
+	}
+
+	&:hover {
+		background-color: @silver-lighten1;
+	}
+
+	&:active {
+		background-color: @input-border;
+	}
+
+	&.active {
+		background-color: @active-button-bg;
+		border-color: fade(@silver-darken30, 30%);
+	}
+
+	img {
+		display: block;
+		margin: auto;
+
+		.small-icon& {
+			width: 10px;
+			height: 10px;
+		}
+	}
+}

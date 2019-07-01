@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <g id="Group_251" data-name="Group 251" transform="translate(20 -1972)">
+    <g id="Rectangle_241" data-name="Rectangle 241" transform="translate(-20 1972)" fill="none" stroke="#5e5e5e" stroke-width="1">
+      <rect width="14" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="3" fill="none"/>
+    </g>
+    <g id="Rectangle_242" data-name="Rectangle 242" transform="translate(-20 1977)" fill="none" stroke="#5e5e5e" stroke-width="1">
+      <rect width="14" height="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="3" fill="none"/>
+    </g>
+    <rect id="Rectangle_243" data-name="Rectangle 243" width="14" height="4" transform="translate(-20 1982)" fill="#5e5e5e"/>
+    <path id="Union_5" data-name="Union 5" d="M9,2V1h1V2ZM5,2V1H6V2ZM3,2V1H4V2ZM2,2V1H3V2ZM1,2H0V1H1V0H3V1H2V2ZM7,1V0H8V1ZM4,1V0H5V1ZM0,1V0H1V1Z" transform="translate(-19 1978)" fill="#5e5e5e"/>
+    <path id="Union_6" data-name="Union 6" d="M9,2V1h1V2ZM5,2V1H6V2ZM3,2V1H4V2ZM2,2V1H3V2ZM1,2H0V1H1V0H3V1H2V2ZM7,1V0H8V1ZM4,1V0H5V1ZM0,1V0H1V1Z" transform="translate(-7 1975) rotate(180)" fill="#5e5e5e"/>
+  </g>
+</svg>

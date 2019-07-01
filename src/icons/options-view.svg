@@ -1,0 +1,8 @@
+<svg id="options-view" xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14">
+  <path id="Path_221" data-name="Path 221" d="M15,1.1V9.9H1V1.1H15M15.5,0H.5A.472.472,0,0,0,0,.5v9.9c0,.4.2.6.5.6h15a.472.472,0,0,0,.5-.5V.5a.472.472,0,0,0-.5-.5Z" fill="#5e5e5e"/>
+  <rect id="Rectangle_336" data-name="Rectangle 336" width="1" height="7" transform="translate(2 2)" fill="#5e5e5e"/>
+  <rect id="Rectangle_337" data-name="Rectangle 337" width="1" height="7" transform="translate(13 2)" fill="#5e5e5e"/>
+  <path id="Path_222" data-name="Path 222" d="M11,3V8H5V3h6m1-1H4V9h8V2Z" fill="#5e5e5e"/>
+  <path id="Path_223" data-name="Path 223" d="M9,11H7v2H9Z" fill="#5e5e5e"/>
+  <path id="Path_224" data-name="Path 224" d="M10,13H6v1h4Z" fill="#5e5e5e"/>
+</svg>
