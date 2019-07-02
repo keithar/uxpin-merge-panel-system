@@ -16,6 +16,7 @@ function BtnIcon(props) {
 
   return (
     <div className={btnIconClasses} title={props.title}>
+      <label>{props.labelValue}</label>
       <img src={props.icon} alt={props.alt} />
     </div>
   );
