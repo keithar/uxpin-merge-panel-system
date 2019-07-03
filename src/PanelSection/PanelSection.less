@@ -1,0 +1,54 @@
+// @import '../styles/reset.less';
+@import '../styles/variables.less';
+
+.section {
+	display: block;
+	min-height: 40px;
+	padding: 10px 0px 5px;
+	border-bottom: 1px solid @section-divider;
+	overflow: hidden;
+	background-color: #FFF;
+
+	.section-heading {
+		height: 14px;
+		padding: 4px @panel-padding 0;
+		margin-bottom: 8px;
+		position: relative;
+		z-index: 2;
+
+		.heading-2 {
+			color: @gray-lighten10;
+		}
+
+		.button {
+			position: absolute;
+			top: -4px;
+			right: @panel-padding;
+		}
+
+		& + .controls-group {
+			margin-top: 8px;
+		}
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		height: 0;
+		clear: both;
+	}
+
+	&.active {
+		.heading-2 {
+			font-weight: 600 !important;
+		}
+
+		.controls-group {
+			display: flex;
+		}
+	}
+
+	&.no-header {
+		padding-top: 4px;
+	}
+}

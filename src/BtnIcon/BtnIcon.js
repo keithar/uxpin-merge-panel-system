@@ -4,24 +4,31 @@ import PropTypes from 'prop-types';
 import * as Icons from '../icons';
 import './BtnIcon.less';
 
-function BtnIcon(props) {
-  const btnIconClasses = classnames(
-    'button-icon',
-    { disabled: props.disabled },
-    props.style,
-    props.size,
-    props.labelPosition,
-    props.alt
-  );
+class BtnIcon extends PureComponent {
+  constructor(props) {
+    super(props);
+  }
 
-  return (
-    <div className={btnIconClasses} title={props.title}>
-      <label>{props.labelValue}</label>
-      <img src={props.icon} alt={props.alt} />
-    </div>
-  );
+  render() {
+    const btnIconClasses = classnames(
+      'button-icon',
+      { disabled: this.props.disabled },
+      this.props.style,
+      this.props.size,
+      this.props.labelPosition,
+      this.props.alt
+    );
+
+    console.log(this.props);
+
+    return (
+      <div className={btnIconClasses} title={this.props.title}>
+        <label>{this.props.labelValue}</label>
+        <img src={this.props.icon} alt={this.props.alt} />
+      </div>
+    );
+  }
 }
-
 
 BtnIcon.propTypes = {
   size: PropTypes.oneOf(['size-1', 'size-2', 'size-3', 'size-4', 'size-5', 'size-6', 'size-7', 'size-8']),

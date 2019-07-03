@@ -3,7 +3,7 @@ import Input from '../Input';
 
 export default (
   <Input
-    size='size-4'
-    style='light'
+    size="size-4"
+    style="light"
   />
 );
