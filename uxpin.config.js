@@ -6,6 +6,7 @@ module.exports = {
         include: [
           'src/Input/Input.js',
           'src/BtnIcon/BtnIcon.js',
+          'src/ControlsWrapper/ControlsWrapper.js',
           'src/PanelSection/PanelSection.js',
         ],
       },

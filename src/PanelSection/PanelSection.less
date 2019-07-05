@@ -17,17 +17,17 @@
 		z-index: 2;
 
 		.heading-2 {
-			color: @gray-lighten10;
-		}
-
-		.button {
-			position: absolute;
+			display: inline;
 			top: -4px;
-			right: @panel-padding;
+			left: -5px;
+			padding: 2px 5px;
+			font-weight: 400;
 		}
 
-		& + .controls-group {
-			margin-top: 8px;
+		.button-icon {
+			position: absolute;
+			top: -2px;
+			right: @panel-padding;
 		}
 	}
 
@@ -38,9 +38,21 @@
 		clear: both;
 	}
 
-	&.active {
-		.heading-2 {
-			font-weight: 600 !important;
+	&.collapsed {
+		.controls-group {
+			display: none;
+		}
+	}
+
+	&.expanded {
+		.section-heading {
+			.heading-2 {
+				font-weight: 600 !important;
+			}
+
+			& + .controls-group {
+				margin-top: 8px;
+			}
 		}
 
 		.controls-group {
@@ -50,5 +62,13 @@
 
 	&.no-header {
 		padding-top: 4px;
+
+		.section-heading {
+			display: none;
+
+			& + .controls-group {
+				margin-top: 0;
+			}
+		}
 	}
 }

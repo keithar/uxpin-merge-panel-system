@@ -37,7 +37,7 @@
 		}
 	}
 
-	&.ghost-style {
+	&.ghost {
 		border-color: transparent;
 	}
 
@@ -60,13 +60,22 @@
 		border-color: fade(@silver-darken30, 30%);
 	}
 
-	img {
+	img,
+	svg {
 		display: block;
 		margin: auto;
 
 		.small-icon& {
 			width: 10px;
 			height: 10px;
+		}
+		.medium-icon& {
+			width: 12px;
+			height: 12px;
+		}
+		.big-icon& {
+			width: 14px;
+			height: 14px;
 		}
 	}
 }

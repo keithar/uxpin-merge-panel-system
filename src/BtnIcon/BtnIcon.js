@@ -5,10 +5,6 @@ import * as Icons from '../icons';
 import './BtnIcon.less';
 
 class BtnIcon extends PureComponent {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const btnIconClasses = classnames(
       'button-icon',
@@ -16,15 +12,15 @@ class BtnIcon extends PureComponent {
       this.props.style,
       this.props.size,
       this.props.labelPosition,
-      this.props.alt
+      this.props.alt,
+      this.props.iconSize
     );
-
-    console.log(this.props);
+    const Icon = Icons[this.props.icon];
 
     return (
       <div className={btnIconClasses} title={this.props.title}>
         <label>{this.props.labelValue}</label>
-        <img src={this.props.icon} alt={this.props.alt} />
+        <Icon />
       </div>
     );
   }
@@ -96,6 +92,7 @@ BtnIcon.propTypes = {
     'VisibilitySolidHiddenSvg',
     'VisibilitySolidVisibleSvg',
   ]),
+  iconSize: PropTypes.oneOf(['small-icon', 'medium-icon', 'big-icon']),
   style: PropTypes.oneOf(['light', 'ghost']),
   title: PropTypes.string,
   disabled: PropTypes.bool,
@@ -105,8 +102,10 @@ BtnIcon.propTypes = {
 
 BtnIcon.defaultProps = {
   size: 'size-1',
-  disabled: false,
   icon: 'PlusSvg',
+  iconSize: 'small-icon',
+  style: 'light',
+  disabled: false,
 };
 
 export default BtnIcon;

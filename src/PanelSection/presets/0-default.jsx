@@ -5,6 +5,11 @@ import PanelSection from '../PanelSection';
 export default (
   <PanelSection
     header="Header"
-    btnIcon={<BtnIcon />}
-  />
+    state="expanded"
+    headerVisible="header-visible">
+    <BtnIcon
+      icon="plusSvg"
+      style="ghost"
+    />
+  </PanelSection>
 );
